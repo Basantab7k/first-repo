@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    color:#555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+section{
+    padding: 30px 0;
+}
+.text-box{
+    position: absolute;
+    max-width: 1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/3.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+ margin: 0;
+ margin-bottom: 20px;
+ color:#FFF;
+ font-size: 240%; 
+ font-weight: 300;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ word-spacing: 4px;
+
+}
+section{
+    background-image: linear-gradient(#acb6e5),(#86fde8);
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+h2:after{
+    display:block;
+    height:2px;
+    background-color: orange;
+    content:"";
+    width:100px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.long-copy
+{
+    line-height: 145%;
+    width:70%;
+    margin-left:15%;
+}
+.btn:hover,
+.btn:active
+{
+background-color: aqua;
+
+
+}
+.btn:link,.btn:visited{
+display:inline-block;
+padding:10px 30px;
+font-weight: 300;
+text-decoration: none;
+border-radius: 200px;
+transition: background-color 2s, ease;
+
+}
+.btn-one:link
+,.btn-one:visited{
+    background-color: orange;
+    border: 1px solid orange;
+    color:#FFF
+}
+.btn-two:link,
+.btn-two:visited
+{
+ border:1px solid orange;
+ color: orange ;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav 
+{
+    float:right;
+    list-style: none;
+    margin-top: 40px;
+}
+.main-nav li{
+    display: inline-block;
+    margin: 40px;
+}
+.main-nav li,a:link,
+.main-nav li,a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:90%;
+    border-bottom: 2px solid orange;
+    transition: border-bottom 0.2s, ease;
+}
+.main-nav li,a:hover,
+.main-nav li,a:active{
+
+border-bottom: 2px solid orange;
+}
+.meal-showcase{
+    list-style: none;
+    width:100%;
+}
+.meal-showcases li{
+    display:blocdthk;
+    float:left;
+    width:25%
+
+}
+.meal{
+width:100%;
+margin:0;
+}
+.meal img{
+    width:100%;
+    height: auto;
+    
+}
