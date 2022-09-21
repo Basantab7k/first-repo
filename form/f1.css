@@ -1,0 +1,52 @@
+form{
+    background-color: lightblue;
+    margin: 0 5%;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.col {
+    padding: 20px 40px;
+    text-align: left;
+    margin: auto;
+}
+.form-control{
+    width: 100%;
+    border: none;
+    padding: 10px 25px;
+    border: 5px;
+}
+label{
+    display: block;
+    text-align: left;
+}
+
+.btn{
+    
+    padding: 20px 40px;
+    background-color: tomato;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 700;
+    margin-top: -40px;
+   
+}
+@media only screen and (max-width: 900px) {
+    .row {
+        
+        grid-template-columns: auto auto;
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .row {
+        grid-template-columns: auto;
+        
+    }
+}
